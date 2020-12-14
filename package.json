@@ -1,0 +1,21 @@
+{
+  "name": "06_make_transfer",
+  "version": "0.2.0",
+  "description": "Example showing how to make a transfer",
+  "main": "index.js",
+  "author": "chevdor",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^2.10.2-9",
+    "@polkadot/keyring": "^4.2.2-9",
+    "@polkadot/types": "^2.10.2-9",
+    "node-xlsx": "^0.15.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
